@@ -3,8 +3,8 @@ let DEBUG = false
 let rounds = 0
 
 type Maybe<T> = T | undefined
-type Chair = "one" | "two"
-let available_chairs: Chair[] = ["one", "two"]
+type Chair = "one" | "two" | "three"
+let available_chairs: Chair[] = ["one", "two", "three"]
 const debug = (...args) => DEBUG ? console.log(...args) : null
 
 class Person {
